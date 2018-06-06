@@ -1,3 +1,10 @@
+[新建 Repository]
+1. 网站上新建 Repository
+2. 使用 Git Bash 定位到本地文件夹
+3. 输入 git clone https://github.com/gniyliu/xxx.git
+4. 本地上添加文件
+5. 提交文件
+
 [提交代码]
 1. git status	// 查看修改的文件
 2. git add .	// 将所有内容全部添加到本地git缓存区中	
