@@ -1,0 +1,5 @@
+[linux内核版本信息]
+1. uname -a
+
+[linux发行版本信息]
+1. lsb_release -a
