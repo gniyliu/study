@@ -11,6 +11,13 @@
 5. coding.net地址：https://coding.net/home.html
    速度快，功能与开源中国相似，同样一个账号最多可以创建1000个项目
 
+[使用git的步骤]
+1. 在有git服务的网站上注册账号
+2. 下载windows对于版本的git bash并安装
+3. 利用git bash产生本地秘钥  ssh-keygen -t rsa -C "184194732@qq.com"
+4. 注意秘钥生成的地址，用记事本打开 id_rsa.pub，并添加到网站的
+
+
 [新建 Repository]
 1. 网站上新建 Repository
 2. 使用 Git Bash 定位到本地文件夹
