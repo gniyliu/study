@@ -1,9 +1,26 @@
+[关于git的几个网站]
+1. GitHub地址：https://github.com/
+   比较通用，但免费用户只能创建公开repository
+2. Gitlab地址：https://about.gitlab.com/
+   Gitlab支持无限的公有项目和私有项目
+3. bitbucket地址：https://bitbucket.org/
+   免费支持5个开发成员的团队创建无限私有代码托管库
+4. 开源中国地址：https://gitee.com/
+   免费版：5人成员上限、5G仓库容量、3G附件容量、单文件最大100M、单项目最大1G
+   速度快
+5. coding.net地址：https://coding.net/home.html
+   速度快，功能与开源中国相似，同样一个账号最多可以创建1000个项目
+
 [新建 Repository]
 1. 网站上新建 Repository
 2. 使用 Git Bash 定位到本地文件夹
 3. 输入 git clone https://github.com/gniyliu/xxx.git
 4. 本地上添加文件
 5. 提交文件
+
+[delete repository--github网站]
+1. 网页上点击相应的repository
+2. 找到setting,在最下方的“危险区域”做相应动作
 
 [提交代码]
 1. git status	// 查看修改的文件
