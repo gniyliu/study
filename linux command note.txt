@@ -3,3 +3,6 @@
 
 [linux发行版本信息]
 1. lsb_release -a
+
+[切换用户]
+  su xxx
