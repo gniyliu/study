@@ -1,3 +1,27 @@
+[翻页]
+ 整页翻页 ctrl-f ctrl-b
+  f就是forword b就是backward
+
+ 翻半页
+  ctrl-d ctlr-u
+  d=down u=up
+
+ 滚一行
+  ctrl-e ctrl-y
+
+ zz 让光标所在的行居屏幕中央
+ zt 让光标所在的行居屏幕最上一行 t=top
+ zb 让光标所在的行居屏幕最下一行 b=bottom
+
+[查找]
+ /xxx 从顶部开始查找
+ /xxx 从底部开始查找
+ n:往下下一个 N:往上下一个
+ /\<xxx 以xxx开头的字符串
+ /\>xxx 以xxx结尾的字符串
+ 大小写区分:set ignorecase/set noignorecase
+ 
+
 [命令模式→输入模式]
   i：在当前光标所在字符的前面，转为输入模式
 　I：在当前光标所在行的行首转换为输入模式
