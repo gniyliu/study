@@ -6,3 +6,27 @@
 
 [切换用户]
   su xxx
+
+[统计文件夹或文件大小信息]
+  du -sh *
+
+[复制文件或文件夹]
+  cp -a source\ dest
+
+[查看当前路径]
+  pwd
+
+[查找某个文件]
+  find 路径 -name 文件名
+
+[查询进程及杀死进程]
+  ps
+  kill xxx
+
+[新增、删除用户及目录]
+1.useradd liuying 新增
+2.mkdir /home/liuying 增加用户文件夹目录
+2.passwd liuying 设定密码
+3.userdel -r liuying 删除用户
+
+
