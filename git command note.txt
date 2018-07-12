@@ -35,3 +35,10 @@
 3. git commit -m "comment for this pull"	// 添加注释
 4. git pull origin master	// 获取远程代码与本地合并 可省略 
 5. git push origin master	// 正式提交
+
+[比对代码]
+1. 使用git log显示历次提交信息，获取将要比对的两次提交的commit id,
+   例如：commit 49cafb636d637682ecab1c6fafd3f55f79aaf423
+2. 使用git diff commit1 commit2 --stat 比对两次提交的各文件差异
+3. 如需要比对具体的文件夹或者文件，只需要将 --stat修改为具体文件夹或者文件即可
+
