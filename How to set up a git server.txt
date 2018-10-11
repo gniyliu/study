@@ -1,0 +1,34 @@
+1. Install git
+  $ sudo apt-get install git
+
+2. Check git version
+  $ git --version
+
+3. Create git user and login in
+  $ sudo adduser git
+  $ su git
+
+4. Create authorized_keys file, and add pub key to it
+  authorized_keys file place in /home/user-xxx/.ssh/ folder
+  $ ssh_keygen
+  add pub key to it, every key per line
+
+5. Setup git foler authorize
+  $ chown -R git:git git
+
+6. Setup config file
+  $ vi /etc/ssh/sshd_config
+  AuthorizedKeysFile home/user-xxx/.ssh/authorized_keys
+
+7. Disable git user login in shell
+  $ vi /etc/passwd
+  git:x:1001:1001:,,,:/home/git:/usr/bin/git-shell
+
+8. Create or select a folder(exp:/home/git/srv/), and initial it
+  $ sudo git init --bare sample.git
+
+9. Modify profile of repository
+  $ sudo chown -R git sample.git
+
+10. Clone the repository
+  $ git clone git@192.168.202.112:/home/git/srv/sample.git
