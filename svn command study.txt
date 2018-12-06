@@ -1,0 +1,11 @@
+1. how to add a root folder to a svn server
+   svn add . --no-ignore --force
+
+2. how to commit all of files
+   svn commit -m "update all files" *
+
+3. how to display the files that between 2 version
+   svn diff -r 405:484 --summarize  https://47.97.193.202/svn/s817/os/PJR > exportFile.txt
+
+4. how to checkout a folder from web
+   svn checkout https://47.97.193.202/svn/s817/os/base+bundle-MTH-PJR-1M
